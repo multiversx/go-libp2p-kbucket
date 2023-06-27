@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sort"
 
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/multiversx/go-libp2p/core/peer"
 )
 
 // A helper struct to sort peers by their distance to the local node

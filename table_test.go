@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/test"
+	"github.com/multiversx/go-libp2p/core/peer"
+	"github.com/multiversx/go-libp2p/core/test"
 
-	"github.com/libp2p/go-libp2p-kbucket/peerdiversity"
-	pstore "github.com/libp2p/go-libp2p/p2p/host/peerstore"
+	"github.com/multiversx/go-libp2p-kbucket/peerdiversity"
+	pstore "github.com/multiversx/go-libp2p/p2p/host/peerstore"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

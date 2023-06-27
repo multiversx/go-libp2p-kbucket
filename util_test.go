@@ -1,9 +1,10 @@
 package kbucket
 
 import (
-	"github.com/libp2p/go-libp2p/core/test"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/multiversx/go-libp2p/core/test"
+	"github.com/stretchr/testify/require"
 )
 
 func TestCloser(t *testing.T) {
